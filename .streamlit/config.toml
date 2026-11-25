@@ -1,0 +1,30 @@
+[theme]
+base = "dark"
+backgroundColor = "#080C12"
+secondaryBackgroundColor = "#101622"
+textColor = "#E2E8F0"
+primaryColor = "#C6FF4D"
+font = "sans serif"
+
+[server]
+headless = true
+enableCORS = false
+enableXsrfProtection = false
+
+[browser]
+gatherUsageStats = false
+
+[secrets]
+files = [".streamlit/secrets.toml"]
+
+
+[server]
+headless = true
+enableCORS = false
+enableXsrfProtection = false
+
+[browser]
+gatherUsageStats = false
+
+[secrets]
+files = [".streamlit/secrets.toml"]
